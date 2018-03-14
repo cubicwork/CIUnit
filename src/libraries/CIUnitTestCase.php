@@ -7,6 +7,8 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
+use PHPUnit\Framework\TestCase;
+
 trait CIUnit_Assert
 {
     public static function assertRedirects($ciOutput, $location, $message = 'Failed to assert redirect')
@@ -23,7 +25,7 @@ trait CIUnit_Assert
  * Extending the default phpUnit Framework_TestCase Class
  * providing eg. fixtures, custom assertions, utilities etc.
  */
-class CIUnit_TestCase extends PHPUnit_Framework_TestCase
+class CIUnit_TestCase extends TestCase
 {
     use CIUnit_Assert;
 
