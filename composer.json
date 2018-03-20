@@ -1,5 +1,5 @@
 {
-    "name": "celc/ciunit",
+    "name": "cubicwork/ciunit",
     "description": "Enables testing CodeIgniter 2.1 with PHPUnit",
     "minimum-stability": "dev",
     "license": "MIT",
