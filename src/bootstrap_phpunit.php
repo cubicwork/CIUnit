@@ -52,7 +52,7 @@ error_reporting(-1);
  * is that the tests folder is in the same directory path as system.  If
  * it is not, update the paths appropriately.
  */
-$system_path = dirname(__FILE__) . '/../../../../system';
+$system_path = dirname(__FILE__) . '/../../../../../../../system';
 
 /*
  *---------------------------------------------------------------
@@ -71,7 +71,7 @@ $system_path = dirname(__FILE__) . '/../../../../system';
  * is that the tests folder is in the same directory as the application
  * folder.  If it is not, update the path accordingly.
  */
-$application_folder = dirname(__FILE__) . '/../../../../application';
+$application_folder = dirname(__FILE__) . '/../../../../../../../application';
 
 /*
  *---------------------------------------------------------------
@@ -129,7 +129,7 @@ $ciunit_folder = dirname(__FILE__);
  *
  * This is the path to the tests folder.
  */
-$tests_folder = dirname(__FILE__) . "/../../../../tests";
+$tests_folder = dirname(__FILE__) . "/../../../../../../../tests";
 
 
 // --------------------------------------------------------------------
