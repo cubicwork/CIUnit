@@ -240,6 +240,8 @@ require_once CIUPATH . 'libraries/CIUnit.php';
 $CI =& set_controller('CIU_Controller', CIUPATH . 'core/');
 $CI->load->add_package_path(CIUPATH);
 
+// add code for support spyc
+include APPPATH . 'libraries/composerlib/vendor/mustangostang/spyc/Spyc.php';
 CIUnit::$spyc = new Spyc();
 
 require_once(CIUPATH . 'libraries/Fixture.php');
