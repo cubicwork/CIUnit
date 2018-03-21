@@ -59,7 +59,8 @@ class CIUnit
 
     public static function &set_controller($controller = 'CI_Controller', $path = FALSE)
     {
-        $controller_name = array_pop(explode('/', $controller));
+        $controller_array = explode('/', $controller);
+        $controller_name = array_pop($controller_array);
         //echo "\nc name ".$controller_name;
         //is it the current controller?
         if ($controller_name == self::$current) {
